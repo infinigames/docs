@@ -1,0 +1,55 @@
+# site fundamental configurations
+
+site_name: "Dimensium Docs"
+site_description: "The official documentation repository of Dimensium, using mkdocs with material theme for mkdocs."
+site_author: "The Dimensium Software Organization"
+site_url: "https://dimensium.github.io"
+strict: false
+
+# repository configurations
+repo_name: "dimensium/dimensium.github.io"
+repo_url: "https://github.com/dimensium/dimensium.github.io"
+edit_uri: "https://github.com/dimensium/dimensium.github.io/fork"
+
+# copyright
+copyright: "Copyright &copy; 2023 Dimensium Software Organization"
+
+# favicon: assets/images/dimensium-logo.svg
+
+
+nav:
+  - index:
+    - index: index.md
+    - section:
+      - index: section/index.md
+theme:
+  name: material
+  palette:
+
+    # Palette toggle for light mode
+    - scheme: default
+      primary: cyan
+      accent: cyan
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      primary: teal
+      accent: teal
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to light mode
+  
+  logo: assets/images/dimensium-logo.svg
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.sections
+    - navigation.indexes
+
+    - toc.integrate
+
+
+
