@@ -1,17 +1,12 @@
-# Welcome to MkDocs
+# Dimensium Docs
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+This is Dimensium Docs, the site which hosts all the documentations of our featured projects and softwares. **If you want to visit the news/blog site instead of this documentation site, please click [this](https://dimensium.github.io).**
 
-## Commands
+Our featured repositories:
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+- [coding standard] (hosted on this site)
+- [dimensium-base] ([docs](docs/dimensium-base) available)
+- other repositories which is still inactive, click [this](https://github.com/orgs/dimensium/repositories) to visit our repositories
 
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+[coding standard]: docs/coding-standard
+[dimensium-base]: https://github.com/dimensium/dimensium-base
