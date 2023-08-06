@@ -101,7 +101,7 @@ extra:
   #   lang: XXX # your language code. visit https://squidfunk.github.io/mkdocs-material/setup/changing-the-language/ for detail.
   alternate:
     - name: English
-      link: /
+      link: https://dimensium.github.io/docs
       lang: en
 
 
