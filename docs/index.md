@@ -1,5 +1,8 @@
 ---
 comments: true
+tags:  
+    - Dimensium
+    - Home
 ---
 
 # Dimensium Docs
@@ -8,9 +11,14 @@ This is Dimensium Docs, the site which hosts all the documentations of our featu
 
 Our featured repositories:
 
-- [coding standard] (hosted on this site)
+- [coding-standard] (hosted on this site)
 - [dimensium-base] ([docs](dimensium-base/index.md) available)
 - other repositories which is still inactive, click [this](https://github.com/orgs/dimensium/repositories) to visit our repositories
 
-[coding standard]: coding-standard/index.md
+
+This site is built using [mkdocs] with [material for mkdocs] theme. Documentation for this site is also available for this site. You can find it easily in the navigation bar.
+
+[coding-standard]: coding-standard/index.md
 [dimensium-base]: https://github.com/dimensium/dimensium-base
+[mkdocs]: https://github.com/mkdocs/mkdocs
+[material for mkdocs]: https://github.com/squidfunk/mkdocs-material
