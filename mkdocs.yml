@@ -11,6 +11,9 @@ nav:
   - "Dimensium Base":
     - dimensium-base/index.md
 
+  - "Dimensium Docs":
+    - dimensium-docs/index.md
+
   - "Tags": 
       tags.md
   
@@ -23,6 +26,7 @@ nav:
 # theme settings.
 theme:
   name: material
+  lang: en
   palette:
 
     # Palette toggle for light mode
@@ -88,6 +92,22 @@ extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/dimensium
+
+
+  # multi-language settings.
+  # If you want to add your translations, simply create your page and add your link:
+  # - name: Language-Full-Name
+  #   link: https://link.to.your.translated/docs
+  #   lang: XXX # your language code. visit https://squidfunk.github.io/mkdocs-material/setup/changing-the-language/ for detail.
+  alternate:
+    - name: English
+      link: /
+      lang: en
+
+
+
+
+
 
 
 # set to true to spread this theme
