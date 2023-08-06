@@ -83,9 +83,20 @@ plugins:
       tags_file: tags.md
     
 
-# revision date plugin, show the date when they edited and created on each page.
+  # revision date plugin, show the date when they edited and created on each page.
   - git-revision-date-localized:
       enable_creation_date: true
+
+
+
+
+
+markdown_extensions:
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+
 
 
 extra:
