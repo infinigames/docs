@@ -1,6 +1,6 @@
 
 
-# navigation
+# navigation bar settings.
 nav:
   - index:
     - index: index.md
@@ -15,23 +15,23 @@ nav:
 
 
 
-
+# theme settings.
 theme:
   name: material
   palette:
 
     # Palette toggle for light mode
     - scheme: default
-      primary: cyan
-      accent: cyan
+      primary: white
+      accent: light blue
       toggle:
         icon: material/toggle-switch
         name: Switch to dark mode
 
     # Palette toggle for dark mode
     - scheme: slate
-      primary: teal
-      accent: teal
+      primary: black
+      accent: light blue
       toggle:
         icon: material/toggle-switch-off-outline
         name: Switch to light mode
@@ -59,13 +59,12 @@ theme:
     view: material/eye
 
 
-
+# mkdocs material plugins.
 plugins:
+
+# revision date plugin, show the date when they edited and created on each page.
   - git-revision-date-localized:
       enable_creation_date: true
-      # enabled: !ENV [CI, false]
-
-      # fallback_to_build_date: true
 
 
 extra:
@@ -74,11 +73,11 @@ extra:
       link: https://github.com/dimensium
 
 
-
+# set to true to spread this theme
   generator: true # TRUEEEEEEEEEEEEEEEEE ALWAYS
 
 
-# site fundamental configurations
+# site fundamental configurations.
 
 site_name: "Dimensium Docs"
 site_description: "The official documentation repository of Dimensium, using mkdocs with material theme for mkdocs."
@@ -86,12 +85,12 @@ site_author: "The Dimensium Software Organization"
 site_url: "https://dimensium.github.io"
 strict: false
 
-# repository configurations
+# repository configurations.
 repo_name: "dimensium/docs"
 repo_url: "https://github.com/dimensium/docs"
 edit_uri: "https://github.com/dimensium/docs/edit/master/docs"
 
-# copyright
+# copyright.
 copyright: "Copyright &copy; 2023 Dimensium Software Organization"
 
-# favicon: assets/images/dimensium-logo.svg
+# favicon: assets/images/dimensium-logo.ico # enable it till we have the icon in .ico format.
