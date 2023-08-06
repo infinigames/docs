@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 # Dimensium Docs
 
 This is Dimensium Docs, the site which hosts all the documentations of our featured projects and softwares. **If you want to visit the news/blog site instead of this documentation site, please click [this](https://dimensium.github.io).**

@@ -1,27 +1,21 @@
-# site fundamental configurations
-
-site_name: "Dimensium Docs"
-site_description: "The official documentation repository of Dimensium, using mkdocs with material theme for mkdocs."
-site_author: "The Dimensium Software Organization"
-site_url: "https://dimensium.github.io"
-strict: false
-
-# repository configurations
-repo_name: "dimensium/dimensium.github.io"
-repo_url: "https://github.com/dimensium/dimensium.github.io"
-edit_uri: "https://github.com/dimensium/dimensium.github.io/fork"
-
-# copyright
-copyright: "Copyright &copy; 2023 Dimensium Software Organization"
-
-# favicon: assets/images/dimensium-logo.svg
 
 
+# navigation
 nav:
   - index:
     - index: index.md
-    - section:
-      - index: section/index.md
+  - "Coding Standard":
+    - index: coding-standard/index.md
+  - "Docs for dimensium-base":
+    - index: dimensium-base/index.md
+  
+
+
+
+
+
+
+
 theme:
   name: material
   palette:
@@ -43,13 +37,61 @@ theme:
         name: Switch to light mode
   
   logo: assets/images/dimensium-logo.svg
+
+
   features:
     - navigation.instant
     - navigation.tabs
     - navigation.sections
     - navigation.indexes
+    - navigation.footer
 
     - toc.integrate
 
+    - content.action.edit
+    - content.action.view
 
 
+
+  icon:
+    repo: fontawesome/brands/github
+    edit: material/pencil-ruler
+    view: material/eye
+
+
+
+plugins:
+  - git-revision-date-localized:
+      enable_creation_date: true
+      # enabled: !ENV [CI, false]
+
+      # fallback_to_build_date: true
+
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/dimensium
+
+
+
+  generator: true # TRUEEEEEEEEEEEEEEEEE ALWAYS
+
+
+# site fundamental configurations
+
+site_name: "Dimensium Docs"
+site_description: "The official documentation repository of Dimensium, using mkdocs with material theme for mkdocs."
+site_author: "The Dimensium Software Organization"
+site_url: "https://dimensium.github.io"
+strict: false
+
+# repository configurations
+repo_name: "dimensium/docs"
+repo_url: "https://github.com/dimensium/docs"
+edit_uri: "https://github.com/dimensium/docs/edit/master/docs"
+
+# copyright
+copyright: "Copyright &copy; 2023 Dimensium Software Organization"
+
+# favicon: assets/images/dimensium-logo.svg
