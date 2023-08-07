@@ -1,8 +1,5 @@
 ---
 comments: true
-tags:  
-    - Dimensium
-    - Home
 ---
 
 <!-- The H1 was changed into "Welcome" because previous "Dimensium Docs" makes the head.title shows "Dimensium Docs - Dimensium Docs", and it's very strange. -->

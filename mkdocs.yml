@@ -15,7 +15,8 @@ nav:
     - dimensium-docs/index.md
     - "Docs creation and configurations":
         dimensium-docs/docs-creation-and-configurations.md
-
+    - "Site automation using GitHub Actions":
+        dimensium-docs/site-automation-using-github-actions.md
 
   - "Tags": 
       tags.md
