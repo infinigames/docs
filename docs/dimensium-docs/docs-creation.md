@@ -4,10 +4,12 @@ We(I) created this site on my Windows computer using powershell, but commands ar
 
 ```powershell
 mkdocs new docs
-Set-Location docs/ # on bash, it's "cd"
+Set-Location docs/ # (1)!
 git init
 git status
 ```
+
+1. In bash, it's `cd`.
 
 Output should look like this:
 
@@ -32,8 +34,10 @@ After created empty repository on Github, type:
 ```powershell
 git add .
 git commit -m "Initialized docs"
-Get-Content mkdocs.yml # on bash, it's "cat"
+Get-Content mkdocs.yml # (1)!
 ```
+
+1. In bash, it's `cat`.
 
 Output:
 ```yaml
