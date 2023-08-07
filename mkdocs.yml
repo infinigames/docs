@@ -13,8 +13,8 @@ nav:
 
   - "Dimensium Docs":
     - dimensium-docs/index.md
-    - "Docs Creation":
-        dimensium-docs/docs-creation.md
+    - "Docs creation and configurations":
+        dimensium-docs/docs-creation-and-configurations.md
 
 
   - "Tags": 
