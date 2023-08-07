@@ -5,7 +5,9 @@ tags:
     - Home
 ---
 
-# Dimensium Docs
+<!-- The H1 was changed into "Welcome" because previous "Dimensium Docs" makes the head.title shows "Dimensium Docs - Dimensium Docs", and it's very strange. -->
+
+# Welcome
 
 This is Dimensium Docs, the site which hosts all the documentations of our featured projects and softwares. **If you want to visit the news/blog site instead of this documentation site, please click [this](https://dimensium.github.io).**
 
@@ -20,3 +22,5 @@ This site is built using [mkdocs] with [material for mkdocs] theme. Documentatio
 
 [coding-standard]: ./coding-standard/index.md
 [dimensium-base]: https://github.com/dimensium/dimensium-base
+[mkdocs]: https://github.com/mkdocs/mkdocs
+[material for mkdocs]: https://github.com/squidfunk/mkdocs-material

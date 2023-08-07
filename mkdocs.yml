@@ -13,6 +13,9 @@ nav:
 
   - "Dimensium Docs":
     - dimensium-docs/index.md
+    - "Docs Creation":
+        dimensium-docs/docs-creation.md
+
 
   - "Tags": 
       tags.md
@@ -74,9 +77,7 @@ theme:
 
 # mkdocs material plugins.
 plugins:
-  # - social:
-  #     cards: true
-  #     cards_dir: /assets/images/social
+  
   - search
 
   - tags:
@@ -96,7 +97,26 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
-
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+  - tables
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences 
 
 
 extra:
