@@ -2,47 +2,52 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://dimensium.github.io/</loc>
-         <lastmod>2023-08-08</lastmod>
+         <lastmod>2023-08-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://dimensium.github.io/tags/</loc>
-         <lastmod>2023-08-08</lastmod>
+         <lastmod>2023-08-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://dimensium.github.io/coding-standard/</loc>
-         <lastmod>2023-08-08</lastmod>
+         <lastmod>2023-08-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://dimensium.github.io/dimensium-base/</loc>
-         <lastmod>2023-08-08</lastmod>
+         <lastmod>2023-08-09</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://dimensium.github.io/dimensium-base/code-walkthrough/</loc>
+         <lastmod>2023-08-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://dimensium.github.io/dimensium-docs/</loc>
-         <lastmod>2023-08-08</lastmod>
+         <lastmod>2023-08-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://dimensium.github.io/dimensium-docs/docs-creation-and-configurations/</loc>
-         <lastmod>2023-08-08</lastmod>
+         <lastmod>2023-08-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://dimensium.github.io/dimensium-docs/site-automation-using-github-actions/</loc>
-         <lastmod>2023-08-08</lastmod>
+         <lastmod>2023-08-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://dimensium.github.io/dimensium-docs/writting-docs/</loc>
-         <lastmod>2023-08-08</lastmod>
+         <lastmod>2023-08-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://dimensium.github.io/tags/</loc>
-         <lastmod>2023-08-08</lastmod>
+         <lastmod>2023-08-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
