@@ -68,6 +68,7 @@ theme:
     - content.action.edit
     - content.action.view
     - content.code.annotate
+    - content.code.copy
 
     - search.suggest
     - search.highlight
@@ -99,19 +100,9 @@ plugins:
 
 
 markdown_extensions:
-  - attr_list
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
-  - abbr
-  - admonition
-  - attr_list
-  - def_list
-  - footnotes
-  - md_in_html
-  - toc:
-      permalink: true
-  - tables
   - pymdownx.arithmatex:
       generic: true
   - pymdownx.betterem
@@ -127,6 +118,17 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
+
+
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+  - tables
 
 
 extra_javascript:

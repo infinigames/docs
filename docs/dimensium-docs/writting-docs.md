@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 # Writting docs
 
 After introducing the basic principles of building this website and implementing automated deployment, writing a document is very easy. This article briefly introduces how to contribute documents.
