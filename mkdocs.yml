@@ -10,15 +10,13 @@ nav:
 
   - "Dimensium Base":
     - dimensium-base/index.md
+    - "Code Walkthrough": dimensium-base/code-walkthrough.md
 
   - "Dimensium Docs":
     - dimensium-docs/index.md
-    - "Docs creation and configurations":
-        dimensium-docs/docs-creation-and-configurations.md
-    - "Site automation using GitHub Actions":
-        dimensium-docs/site-automation-using-github-actions.md
-    - "Writting docs":
-        dimensium-docs/writting-docs.md
+    - "Docs creation and configurations": dimensium-docs/docs-creation-and-configurations.md
+    - "Site automation using GitHub Actions": dimensium-docs/site-automation-using-github-actions.md
+    - "Writting docs": dimensium-docs/writting-docs.md
 
 
   - "Tags": 
@@ -69,6 +67,7 @@ theme:
     - content.action.view
     - content.code.annotate
     - content.code.copy
+    - content.tabs.link
 
     - search.suggest
     - search.highlight
@@ -118,6 +117,8 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true 
 
 
   - abbr
