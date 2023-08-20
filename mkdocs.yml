@@ -175,7 +175,7 @@ strict: false
 # repository configurations.
 repo_name: "dimensium/docs"
 repo_url: "https://github.com/dimensium/docs"
-edit_uri: "https://github.com/dimensium/docs/edit/master/docs"
+edit_uri: "https://github.com/dimensium/docs/edit/main/docs"
 
 # copyright.
 copyright: "Copyright &copy; 2023 Dimensium Software Organization"
