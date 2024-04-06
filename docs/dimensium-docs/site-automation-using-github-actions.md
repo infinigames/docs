@@ -7,7 +7,7 @@ We use [GitHub Actions] to automate the site building and deploying. GitHub Acti
 3. The repository settings makes this site deployed from the `gh-pages` branch, when that [action file](#action-file) completed building the site, another action called `pages build and deployment` automatically runs and deploys the generated site to the target, i.e. `https://dimensium.github.io/docs`.
 
 
-## Site automatic building
+## Site building automation
 
 A workflow written in YAML named `page-building.yml` is in the `.github/workflows/` directory.
 
